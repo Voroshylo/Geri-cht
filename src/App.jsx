@@ -1,5 +1,13 @@
 import Header from "./components/header/header";
-import "./App.css";
+import Hero from "./components/Hero/Hero";
+
 const App = () => {
-  <Header />;
+  return (
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
 };
+
+export default App;

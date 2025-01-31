@@ -1,0 +1,31 @@
+.Hero {
+  display: block;
+}
+.divHero {
+  width: 1920px;
+  height: 1023px;
+  display: flex;
+  background: #0c0b08;
+  padding-left: 310px;
+  padding-right: 310px;
+}
+.divLeft {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1 {
+}
+.h2 {
+}
+.p {
+}
+.btn {
+}
+.divRight {
+  width: 650px;
+}
+.img {
+}

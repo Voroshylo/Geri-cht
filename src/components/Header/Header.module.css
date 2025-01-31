@@ -1,19 +1,64 @@
 .header {
-  background-color: #0c0c0c;
-  width: 1920px;
-  padding: 32px 120px;
+  display: block;
 }
 .divHeader {
+  width: 1920px;
+  background: #0c0b08;
+  display: inline-flex;
+  padding: 32px 120px;
+  align-items: center;
 }
-.icon {
+.logo {
+  display: flex;
+  justify-content: start;
+  padding-right: 437px;
+  color: #fff;
+  text-align: center;
+  font-family: "Cormorant Upright";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 57.2px */
+  letter-spacing: 1.76px;
+  text-transform: uppercase;
 }
 .nav {
+  display: flex;
+  gap: 32px;
 }
 .aNav {
+  color: var(--FFFFFF, #fff);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 28px */
+  letter-spacing: 0.64px;
 }
 .divLog {
+  display: flex;
+  margin-left: 271px;
 }
 .logReg {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%; /* 28px */
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+}
+.icon {
+  margin: 0px 50px;
 }
 .bookTable {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%; /* 28px */
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
 }
