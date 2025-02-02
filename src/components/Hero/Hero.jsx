@@ -31,7 +31,7 @@ const Hero = () => {
           <button className={css.btn}>Explore Menu</button>
         </div>
         <div className={css.divRight}>
-          <div className={css.rightTop}
+          <div className={css.rightTop}></div>
           <img
             className={css.img}
             srcSet={`${heroImg1x} 1x, ${heroImg2x} 2x`}
